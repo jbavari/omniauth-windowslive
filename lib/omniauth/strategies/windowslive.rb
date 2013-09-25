@@ -1,3 +1,5 @@
+require 'openssl'
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 require 'omniauth/strategies/oauth2'
 
 # http://msdn.microsoft.com/en-us/library/hh243647.aspx
