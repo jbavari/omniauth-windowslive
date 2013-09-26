@@ -18,7 +18,8 @@ module OmniAuth
       }
 
       option :authorize_params, {
-        :response_type => 'code'
+        :response_type => 'code',
+        :display => 'touch'
       }
 
       option :name, 'windowslive'
